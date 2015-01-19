@@ -1,0 +1,12 @@
+{
+	"files": [
+	{
+		"from": "custombinding.js.hbs",
+		"to": "app/custombindings/{{name}}.js"
+		},
+		{
+			"from": "custombinding_spec.js.hbs",
+			"to": "spec/custombindings/{{name}}_spec.js"
+		}
+		]
+	}

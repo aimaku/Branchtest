@@ -1,0 +1,18 @@
+{
+	"extends": "../.jshintrc",
+	"quotmark": "single",
+	"globals": {
+		"it": false,
+		"xit": false,
+		"describe": false,
+		"xdescribe": false,
+		"beforeEach": false,
+		"afterEach": false,
+		"expect": false,
+		"spyOn": false
+		"jQuery" : false,
+		"$" : false,
+		"require" : false,
+		"ko" : false
+	}
+}

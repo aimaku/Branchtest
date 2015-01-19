@@ -1,0 +1,37 @@
+{
+	"name": "Branchtest",
+	"version": "0.0.1",
+	"main": "public/app.js",
+	"dependencies": {
+		"jquery": "~2.1.1",
+		"remotex-bootstrap": "git@github.com:remotex/remotex-bootstrap.git",
+		"knockout": "~3.1.0",
+		"sammy": "~0.7.4",
+		"remotex-login": "git@github.com:remotex/remotex-login.git",
+		"fontawesome": "~4.0.3"
+	},
+	"overrides": {
+		"bootstrap": {
+			"main": [
+				"*.less",
+				"./js/collapse.js",
+				"./js/dropdown.js"
+			]
+		},
+		"sammy": {
+			"main": [
+				"./lib/sammy.js"
+			]
+		},
+		"fontawesome": {
+			"main": [
+				"./css/font-awesome.min.css"
+			]
+		},
+		"modernizr": {
+			"main": [
+				"modernizr.js"
+			]
+		}
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"eqeqeq"  : true,
+	"immed"   : true,
+	"latedef" : true,
+	"newcap"  : true,
+	"noarg"   : true,
+	"sub"     : true,
+	"undef"   : true,
+	"boss"    : true,
+	"eqnull"  : true,
+	"node"    : true,
+	"browser" : true,
+	"jquery"  : true,
+	"unused"  : true,
+	"quotmark": "single",
+	"globals" : {
+		"Sammy"         : false,
+		"RemoteX_Login" : false,
+		"require"       : false,
+		"module"        : false,
+		"ko"            : false,
+		"Base64"        : false,
+		"Storage"       : false,
+		"localStorage"  : false,
+		"rmx"           : false
+	}
+}

@@ -1,0 +1,15 @@
+<h1 data-bind="text: header"></h1>
+URL: <a data-bind="attr: { 'href': url }, text: url"/><br/>
+
+<h4 data-bind="visible: message, text: message"/>
+<p data-bind="visible: contextUrl">
+	Error in <strong data-bind="text: contextUrl"/> <span data-bind="visible: contextLine">at line <strong data-bind="text: contextLine"/></span>
+</p>
+<p data-bind="visible: contextContent">
+	<button data-bind="click: function() { $('#context').toggle(); }">Show context</button>
+</p>
+<pre id="context" style="display: none" data-bind="text: contextContent"/>
+<p data-bind="visible: stack">
+	<button data-bind="click: function() { $('#stack').toggle(); }">Show call stack</button>
+</p>
+<pre id="stack" style="display: none" data-bind="text: stack"/>

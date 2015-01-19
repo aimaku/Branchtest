@@ -1,0 +1,8 @@
+{
+	"files": [
+	{
+		"from": "pageload.js.hbs",
+		"to": "app/js/pageload/{{name}}.js"
+		}
+		]
+	}

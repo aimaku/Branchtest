@@ -1,0 +1,32 @@
+{
+  "name": "Branchtest",
+  "description": "Description",
+  "author": "RemoteX Technologies AB",
+  "version": "0.0.1",
+  "repository": "git@github.com:remotex/remotex-web-template.git",
+  "scripts": {
+    "preinstall": "bower update",
+    "postinstall": "brunch build --production",
+    "start": "brunch watch --server -e development",
+    "test": "karma start --single-run"
+  },
+  "dependencies": {
+    "clean-css-brunch": ">= 1.0 < 1.8",
+    "css-brunch": ">= 1.0 < 1.8",
+    "javascript-brunch": ">= 1.0 < 1.8",
+    "jshint-brunch": "git+https://github.com/brunch/jshint-brunch.git",
+    "less-brunch": "~1.7.0",
+    "scaffolt": "~0.4.3",
+    "static-html-brunch": "git+https://github.com/remotex/static-html-brunch.git",
+    "uglify-js-brunch": ">= 1.0 < 1.8"
+  },
+  "devDependencies": {
+    "karma": "~0.10.9",
+    "karma-jasmine": "~0.1.5",
+    "karma-junit-reporter": "~0.2.1",
+    "karma-coverage": "~0.1.4",
+    "karma-phantomjs-launcher": "~0.1",
+    "auto-reload-brunch": "~1.6.5",
+    "remotex-ajaxmock": "git+https://github.com/remotex/remotex-ajaxmock.git"
+  }
+}

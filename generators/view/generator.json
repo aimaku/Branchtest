@@ -1,0 +1,16 @@
+{
+	"files": [
+		{
+			"from": "template.html",
+			"to": "app/templates/{{name}}.html"
+		},
+		{
+			"from": "model.js.hbs",
+			"to": "app/viewmodels/{{name}}.js"
+		},
+		{
+			"from": "model_spec.js.hbs",
+			"to": "spec/viewmodels/{{name}}_spec.js"
+		}
+	]
+}
