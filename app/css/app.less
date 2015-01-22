@@ -1,9 +1,66 @@
+/*change font to google font-Open sans - link in index.html head*/
+body {
+	font-family: 'Open Sans', sans-serif;	
+}
 
-.logo-letter-spacing{
+/*dropdown-menu - style/color for divider*/
+.dropdown-menu .divider {
+  background-color: #013a55;
+  border: 2px;
+  border-color: #347491;
+  border-style: groove;
+}
+
+
+/*remotex logo - letter spacing*/
+.logo{
 	letter-spacing: 2px;
 }
 
+/*mobile nav icon - no border*/
 .navbar-toggle {
   border: none;
 }
 
+/*mobile nav icon - from grey to white stripes*/
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+
+/*mobile nav icon hover state - from white to orange stripes*/
+.navbar-default .navbar-toggle:hover .icon-bar {
+	background-color: #df9521;
+}
+
+/*mobile nav icon hover state - background from light grey to transparent*/
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: transparent;
+}
+
+
+/*mobile dropdown - some of main linktext color from grey to white*/
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+
+/*mobile dropdown - 'Arbetsorder' linktext from grey to white*/
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  background-color: #015176;
+  color: #ffffff;
+}
+
+/*mobile dropdown - some of linktext color from grey to white*/
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+ }
+
+/*dropdown-menu - bold linktext*/
+.bold{
+	font-weight: bold;
+	letter-spacing: 1px;
+}
