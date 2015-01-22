@@ -21,6 +21,8 @@ exports.config =
 				'css/app.css': /^(app|bower_components)/
 		templates:
 			joinTo: 'app.js'
+	server:
+		path: 'server.coffee'
 	plugins:
 		uglify:
 			output:
