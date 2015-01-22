@@ -1,5 +1,8 @@
 # Brunch app
+<<<<<<< HEAD
 Instructions for my first Brunch app :-)
+=======
+>>>>>>> 1a433f93993d5125fd364be24a9c796cb03b83a1
 
 This is HTML5 application, built with [Brunch](http://brunch.io).
 
